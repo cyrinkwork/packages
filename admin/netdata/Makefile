@@ -17,7 +17,7 @@ PKG_LICENSE_FILES:=COPYING
 PKG_CPE_ID:=cpe:/a:my-netdata:netdata
 
 PKG_SOURCE:=$(PKG_NAME)-v$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/netdata/netdata/tar.gz/v$(PKG_VERSION)?
+PKG_SOURCE_URL:=https://github.com/cyrinkwork/netdata/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=e088c4b66e1be2ab6dc8a59b2376227befa195a112a483891916ec0f0580ed40
 
 PKG_INSTALL:=1
