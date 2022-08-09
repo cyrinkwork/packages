@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2008-2016 OpenWrt.org
+# Copyright (C) 2008-2022 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=netdata
-PKG_VERSION:=1.33.1
+PKG_VERSION:=1.31.0
 PKG_RELEASE:=1
 
 PKG_MAINTAINER:=Josef Schlehofer <pepe.schlehofer@gmail.com>, Daniel Engberg <daniel.engberg.lists@pyret.net>
@@ -17,8 +17,8 @@ PKG_LICENSE_FILES:=COPYING
 PKG_CPE_ID:=cpe:/a:my-netdata:netdata
 
 PKG_SOURCE:=$(PKG_NAME)-v$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/netdata/netdata/releases/v$(PKG_VERSION)
-PKG_HASH:=20ba8695d87187787b27128ac3aab9b09aa29ca6b508c48542e0f7d50ec9322b
+PKG_SOURCE_URL:=https://github.com/cyrinkwork/netdata/releases/tag/v$(PKG_VERSION)
+PKG_HASH:=e088c4b66e1be2ab6dc8a59b2376227befa195a112a483891916ec0f0580ed40
 
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1
